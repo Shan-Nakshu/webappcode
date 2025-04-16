@@ -1,0 +1,18 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      python: 3.8  # Not used here, but required
+    commands:
+      - echo Installing dependencies...
+  build:
+    commands:
+      - echo Build started on `date`
+      - chmod +x Script2.sh
+      - echo Build completed on `date`
+
+artifacts:
+  files:
+    - Script2.sh
+    - appspec.yml
