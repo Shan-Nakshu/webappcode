@@ -1,5 +1,5 @@
 #! /bin/bash
-sudo yum install httpd -y
+sudo yum install httpd unzip -y
 sudo systemctl enable httpd
 sudo systemctl start httpd
 wget https://www.free-css.com/assets/files/free-css-templates/download/page296/mediplus-lite.zip
