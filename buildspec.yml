@@ -11,9 +11,6 @@ phases:
       - echo Build started on `date`
       - chmod +x Script2.sh
       - echo Build completed on `date`
-
 artifacts:
   files:
-    - Script2.sh
-    - appspec.yml
-  discard-paths: yes
+    - '**/*'
